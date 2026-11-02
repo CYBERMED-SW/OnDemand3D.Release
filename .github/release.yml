@@ -1,0 +1,11 @@
+# .github/release.yml
+changelog:
+  categories:
+    - title: "Migration"        # 기존 Migrate 또는 Migration 구역 설정
+      labels:
+        - "migration"        
+
+    - title: "Landmark"         # 새로 표시되게 하고 싶은 Landmark 구역 설정
+      labels:
+        - "landmark"              # PR에 'landmark' 레이블이 붙으면 이 구역으로 들어감
+
