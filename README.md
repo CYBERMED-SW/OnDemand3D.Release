@@ -1,11 +1,14 @@
-# OnDemand3D Release Note
+## library version:  2.5.1409
+```
+dll: iwtkPublicModules.dll
+resource: iwtkPublicModules.iwtkrc
+depends: onnxruntime.dll (1.23.25.1002)
+```
 
-### Migrate: All OLE DB includes and accessor classes to ODBC
-
-- **Enhanced Connection Reliability & Security:** Upgraded modern ODBC drivers ensure seamless connectivity with the latest database servers and strict compliance with modern security protocols.
-
-- **Consistent Cross-Platform & Multi-DB Compatibility:** ODBC standardizes data access across diverse enterprise environments, reducing driver-specific conflicts and connection drops.
-
-- **Improved Performance & Stability:** Optimized data fetching and low-level buffer management minimize memory leaks, application crashes, and query latency during large dataset processing.
-
-- **Simplified Maintenance & Future-Proofing:** Eliminates legacy OLE DB dependencies, ensuring long-term OS compatibility and fewer disruptions during system or database updates.
+---
+## previous 1.7.242
+```
+dll: iwtk.dll, iwtkHeadCTFeatureExtractionAPI.dll, iwtkAutoVolumeLandmark.dll, iwtkAICore.dll
+resource : iwtkAutoVolumeLandmark.iwtkrc
+depends: onnxruntime.dll (1.12.22.803) & vtk dlls(version 9.0, 62ea)
+```
